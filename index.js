@@ -26,8 +26,3 @@ app.get('/', function (req, res) {
     });
     res.send("Received request")
 })
-
-/*db.get('posts')
-.find({id: 1})
-.assign({ title: 'test update' } )
-.value()*/
